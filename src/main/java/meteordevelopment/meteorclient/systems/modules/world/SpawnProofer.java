@@ -166,6 +166,7 @@ public class SpawnProofer extends Module {
             block instanceof SlabBlock ||
             block instanceof AbstractPressurePlateBlock ||
             block instanceof TransparentBlock ||
+            block instanceof CarpetBlock ||
             block instanceof TripwireBlock;
     }
 
